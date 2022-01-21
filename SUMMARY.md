@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Marigold Knowledge](README.md)
+* [💸 Assets](assets.md)
 
 ## 🤝 Consensus
 
