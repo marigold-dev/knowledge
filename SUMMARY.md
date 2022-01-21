@@ -43,6 +43,7 @@
 ## ⛓ Sidechain
 
 * [Deku for the noobs](sidechain/sidechain-for-noobs.md)
+* [Sidechain deposits and withdrawals](sidechain/sidechain-deposits-and-withdrawals.md)
 * [References](sidechain/references.md)
 * [Notes on PRs](sidechain/notes-on-prs.md)
 
