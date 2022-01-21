@@ -28,7 +28,7 @@ Deposits work by making a transfer to the sidechain smart contract.
 
 The smart contract facilitates deposits. You deposit by making a transfer to the sidechain smart contract (with a memo indicating the recipient’s sidechain wallet address).
 
-The validators watch the main chain for such transfers, and obligate the current block producer to include a corresponding “deposit” transaction within a certain time. If the block producer doesn’t include the deposit, the validators should refuse to sign any block the block producer produces. (However, if the blocks somehow still get signed, they should still be validated and applied like normal.) This reduces the chances of censorship by a lone validator. Also, the block producer should be rotated at certain intervals, to further reduces the chance of censorship.
+The validators watch the main chain for such transfers, and obligate the current block producer to include a corresponding “deposit” transaction within a certain time. If the block producer doesn’t include the deposit, the validators should refuse to sign any block the block producer produces. (However, if the blocks somehow still get signed, they should still be validated and applied like normal.) This reduces the chances of censorship by a lone validator. Also, the block producer should be rotated at certain intervals, to further reduces the chance of censorship (see [properties of consensus algorithms](consensus/consensus-algorithm/README.md)).
 
 (The validators also need to refuse to sign any block that contains a deposit transaction they didn’t see happen on the main chain.)
 
