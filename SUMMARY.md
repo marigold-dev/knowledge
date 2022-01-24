@@ -26,7 +26,12 @@
   * [Algorand](consensus/details-on-algorithms/algorand.md)
   * [Avalanche](consensus/details-on-algorithms/avalanche.md)
   * [Ripple](consensus/details-on-algorithms/ripple.md)
-  * [Tendermint](consensus/details-on-algorithms/tendermint.md)
+  * [Tendermint](consensus/details-on-algorithms/tendermint/README.md)
+    * [Getting in sync](consensus/details-on-algorithms/tendermint/getting-in-sync.md)
+    * [Scenarios](consensus/details-on-algorithms/tendermint/scenarios/README.md)
+      * [Normal scenario](consensus/details-on-algorithms/tendermint/scenarios/normal-scenario.md)
+      * [Net split](consensus/details-on-algorithms/tendermint/scenarios/net-split.md)
+    * [Locking rules](consensus/details-on-algorithms/tendermint/locking-rules.md)
 
 ## 📜 Rollups
 
@@ -79,7 +84,7 @@
 
 * [Attacks](faq/attacks.md)
 * [Benchmark](faq/benchmark/README.md)
-  * [Compare 2 snoop benchmarks](faq/benchmark/compare-2-snoop-benchmarks.md)
+  * [Compare 2 snoop benchmarks](faq/benchmark/compare-2-snoop-benchmarks.md)
 * [🐫 OCaml stuff](faq/ocaml-stuff/README.md)
   * [Learn OCaml 🐫](faq/ocaml-stuff/learn-ocaml.md)
   * [Coding style](faq/ocaml-stuff/coding-style.md)
