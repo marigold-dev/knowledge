@@ -86,6 +86,7 @@
 * [Benchmark](faq/benchmark/README.md)
   * [Compare 2 snoop benchmarks](faq/benchmark/compare-2-snoop-benchmarks.md)
 * [🐫 OCaml stuff](faq/ocaml-stuff/README.md)
+  * [🆒 Marigold Trainings](faq/ocaml-stuff/marigold-trainings.md)
   * [Learn OCaml 🐫](faq/ocaml-stuff/learn-ocaml.md)
   * [Coding style](faq/ocaml-stuff/coding-style.md)
   * [\_\[> \`And\_clear\]](faq/ocaml-stuff/\_-greater-than-and\_clear.md)
