@@ -61,6 +61,8 @@
 
 ***
 
+* [👾 Dapps](dapps/README.md)
+  * [🆒 Marigold Trainings](dapps/marigold-trainings.md)
 * [🔠 Vocabulary](vocabulary/README.md)
   * [Aggregation (transaction)](vocabulary/aggregation-transaction.md)
   * [Baker](vocabulary/baker.md)
