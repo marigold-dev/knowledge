@@ -1,0 +1,3 @@
+# Nakmoto like consensus
+
+x

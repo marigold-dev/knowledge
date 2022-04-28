@@ -1,7 +1,17 @@
 # Table of contents
 
 * [Marigold Knowledge](README.md)
-* [💸 Assets](assets.md)
+
+## 🧊 Blockchain
+
+* [What is a Blockchain?](blockchain/what-is-a-blockchain.md)
+* [Nakmoto like consensus](blockchain/nakmoto-like-consensus.md)
+* [PBFT like consensus](blockchain/pbft-like-consensus.md)
+* [Things to care about](blockchain/things-to-care-about.md)
+* [VM operations](blockchain/vm-operations.md)
+* [Gas & Burn](blockchain/gas-and-burn.md)
+* [Fees](blockchain/fees.md)
+* [Token & currencies](blockchain/assets.md)
 
 ## 🤝 Consensus
 
