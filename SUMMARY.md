@@ -11,7 +11,8 @@
 * [VM operations](blockchain/vm-operations.md)
 * [Gas & Burn](blockchain/gas-and-burn.md)
 * [Fees](blockchain/fees.md)
-* [Token & currencies](blockchain/assets.md)
+* [Token & currencies](blockchain/assets/README.md)
+  * [Tickets](blockchain/assets/tickets.md)
 
 ## 🤝 Consensus
 
