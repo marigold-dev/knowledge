@@ -10,7 +10,7 @@ The sidechain is connected to the main chain via a smart contract. The smart con
 
 The state root hash is a hash of the current state of the sidechain. It’s essentially the hash that corresponds to the root node of a merkle tree storing all the operations that happened on the sidechain. (It actually will probably be a patricia-merkle tree for performance reasons.) This is just a hash a few bytes big, so it can be cheaply stored on the main chain.
 
-![](<../.gitbook/assets/image (6).png>)
+![](../.gitbook/assets/image.png)
 
 (A merkle tree. Image released into the public domain [here](https://commons.wikimedia.org/wiki/File:Hash\_tree.png).)
 
@@ -28,7 +28,7 @@ Deposits work by making a transfer to the sidechain smart contract.
 
 The smart contract facilitates deposits. You deposit by making a transfer to the sidechain smart contract (with a memo indicating the recipient’s sidechain wallet address).
 
-The validators watch the main chain for such transfers, and obligate the current block producer to include a corresponding “deposit” transaction within a certain time. If the block producer doesn’t include the deposit, the validators should refuse to sign any block the block producer produces. (However, if the blocks somehow still get signed, they should still be validated and applied like normal.) This reduces the chances of censorship by a lone validator. Also, the block producer should be rotated at certain intervals, to further reduces the chance of censorship (see [properties of consensus algorithms](consensus/consensus-algorithm/)).
+The validators watch the main chain for such transfers, and obligate the current block producer to include a corresponding “deposit” transaction within a certain time. If the block producer doesn’t include the deposit, the validators should refuse to sign any block the block producer produces. (However, if the blocks somehow still get signed, they should still be validated and applied like normal.) This reduces the chances of censorship by a lone validator. Also, the block producer should be rotated at certain intervals, to further reduces the chance of censorship (see [properties of consensus algorithms](consensus/consensus-algorithm/README.md)).
 
 (The validators also need to refuse to sign any block that contains a deposit transaction they didn’t see happen on the main chain.)
 
@@ -47,3 +47,4 @@ Withdrawals work with a special `Transfer_to_tezos(wallet_address, amount_to_tra
 Once the operation is written, the tokens are gone (as far as the sidechain is concerned). Actually withdrawing the tokens from the smart contract’s reserve happens by calling a function on the smart contract, and is only possible once a new state root hash is written.
 
 To withdraw, you call the smart contract with a transfer handle, a wallet address, and a proof that a `Transfer_to_tezos` operation with that handle and wallet address was included in the state. The contract checks whether it has already processed a withdrawal using that handle, and if not it transfers the tokens to the wallet address.
+
