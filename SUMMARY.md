@@ -12,6 +12,8 @@
 * [Gas & Burn](blockchain/gas-and-burn.md)
 * [Fees](blockchain/fees.md)
 * [Token & currencies](blockchain/assets/README.md)
+  * [Account model](blockchain/assets/account-model.md)
+  * [UTXO model](blockchain/assets/utxo-model.md)
   * [Tickets](blockchain/assets/tickets.md)
 
 ## 🤝 Consensus
