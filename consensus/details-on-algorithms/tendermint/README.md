@@ -2,7 +2,7 @@
 
 ### Overview
 
-[Tendermint](https://tendermint.com) consensus is a [weakly synchronous](../../../vocabulary/network-partion-synchronicity.md) [BFT-like consensus](../../consensus-families/practical-byzantine-fault-tolerance-pbft.md) protocol tailored for blockchains.
+[Tendermint](https://tendermint.com/) consensus is a [weakly synchronous](../../../vocabulary/network-partion-synchronicity.md) [BFT-like consensus](../../consensus-families/practical-byzantine-fault-tolerance-pbft.md) protocol tailored for blockchains.
 
 Tendermint is not just a consensus protocol, however we will call Tendermint's consensus Tendermint from now on.
 

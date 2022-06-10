@@ -71,6 +71,7 @@
 * [State Channels](other-layer-2/state-channels/README.md)
   * [Lightning Network](other-layer-2/state-channels/lightning-network.md)
   * [Raiden Network](other-layer-2/state-channels/raiden-network.md)
+* [💰 DeFi](other-layer-2/defi.md)
 
 ***
 
@@ -79,6 +80,7 @@
 * [🔠 Vocabulary](vocabulary/README.md)
   * [Aggregation (transaction)](vocabulary/aggregation-transaction.md)
   * [Baker](vocabulary/baker.md)
+  * [Collateralized Debt Position](vocabulary/collateralized-debt-position.md)
   * [Cryptoeconomics](vocabulary/cryptoeconomics.md)
   * [Distributed Denied of Service](vocabulary/distributed-denied-of-service.md)
   * [Endorser](vocabulary/endorser.md)
@@ -86,6 +88,7 @@
   * [Forking](vocabulary/forking.md)
   * [Leader/Leaderless](vocabulary/leader-leaderless.md)
   * [Network partition/Synchronicity](vocabulary/network-partion-synchronicity.md)
+  * [Oven](vocabulary/oven.md)
   * [Overlay network](vocabulary/overlay-network.md)
   * [Permissioned](vocabulary/permissioned.md)
   * [Plagiarism](vocabulary/plagiarism.md)
@@ -94,6 +97,7 @@
   * [Subjectivity](vocabulary/subjectivity.md)
   * [Sybil attacks](vocabulary/sybil-attacks.md)
   * [Validator](vocabulary/validator.md)
+  * [Wallet](vocabulary/wallet.md)
 
 ## 🧮 FAQ
 
